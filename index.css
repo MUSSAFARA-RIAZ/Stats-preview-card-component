@@ -1,0 +1,73 @@
+body{
+    background-color: #0a0c1b;
+
+}
+#container{
+    background-color:#1c1938;
+
+    display: grid;
+    grid-template-columns: 378px 200px;
+    width: 379px;
+    height: 370px;
+
+   
+ 
+   position: relative;
+   top: 10%;
+   left: 10%;
+   color: white;
+  
+  
+
+}
+img{
+height: 370px;
+
+    background-color: purple;
+
+}
+#rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+
+
+}
+p{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: white;
+    
+
+}
+h2{
+    font-family: 'Poppins';
+
+}
+#text{
+    width: 300px;
+    padding: 25px;
+   
+}
+span{
+    text-transform: uppercase;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    
+}
+#footer-text{
+  
+    text-align: center;
+}
+a{
+    color: red;
+   
+}
